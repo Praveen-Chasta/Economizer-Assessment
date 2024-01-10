@@ -1,0 +1,134 @@
+.top-section-container {
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  background-color: rgb(8, 10, 44);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dots-container {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 6px;
+  margin-top: 18px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.top-icon-1 {
+  color: grey;
+  margin-top: 16px;
+  opacity: 0.5;
+  margin-left: 15px;
+}
+
+.top-icon {
+  color: grey;
+  margin-top: 16px;
+  opacity: 0.5;
+  margin-left: 7px;
+}
+
+.shield-icon {
+  color: rgb(61, 60, 80);
+  margin-right: 10px;
+  height: 4vh;
+  margin-top: 10px;
+}
+
+.top-shield-container {
+  display: flex;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  height: 4vh;
+  margin-top: 6px;
+  width: 20vw;
+}
+
+.link-para {
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.lock-icon {
+  color: aliceblue;
+  margin-left: 105px;
+}
+
+.refresh-icon {
+  color: aliceblue;
+  margin-left: 80px;
+}
+
+.top-items-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.upload {
+  color: rgb(61, 60, 80);
+  height: 18px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.plus {
+  color: rgb(61, 60, 80);
+  height: 22px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.copy {
+  color: rgb(61, 60, 80);
+  height: 22px;
+  width: 22px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 776px) {
+  .top-section-container {
+    width: auto;
+  }
+  .link-container {
+    width: auto;
+  }
+  .link-para {
+    font-size: auto;
+  }
+  .upload {
+    width: auto;
+  }
+
+  .plus {
+    width: auto;
+  }
+
+  .copy {
+    width: auto;
+  }
+}

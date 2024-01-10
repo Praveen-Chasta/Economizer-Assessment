@@ -1,0 +1,139 @@
+.left-side-container {
+  width: 25vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-side-container {
+  margin-left: 35px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  width: 150px;
+  padding: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: rgb(232, 248, 253);
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 90px;
+  background-color: rgb(232, 248, 253);
+  margin-left: 10px;
+}
+
+.icon {
+  color: rgb(52, 104, 247);
+  margin-right: 10px;
+  height: 12px;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(232, 248, 253);
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 40px;
+  padding-left: 10px;
+}
+.dash-para {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.hr-line {
+  width: 170px;
+  border: none;
+  border-top: 0.5px solid grey;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+}
+
+.icon-1 {
+  margin-right: 10px;
+  height: 15px;
+}
+
+.side-username-cont {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.side-profile-icon {
+  height: 40px;
+  width: 30px;
+}
+
+.side-profile-heading {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.side-profile-para {
+  font-size: 14px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.one {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-side-container {
+    width: 80%;
+    height: auto;
+  }
+
+  .top-side-container {
+    margin-left: 20px;
+  }
+
+  .search-container {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .input {
+    width: 70%;
+  }
+
+  .dashboard {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .hr-line {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 0;
+  }
+
+  .side-username-cont {
+    margin-left: 5px;
+  }
+
+  .side-profile-icon {
+    height: 30px;
+    width: 20px;
+  }
+
+  .one {
+    margin-left: 0;
+  }
+}
